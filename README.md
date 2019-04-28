@@ -1,4 +1,5 @@
-#Python Skeleton
+Python Skeleton
+=
 As I am constantly loosing time building and configuring some boilerplate for my
  various tests, I decided to store a repository with any variations.
  
