@@ -1,0 +1,11 @@
+version: '2.4'
+services:
+  python:
+    build:
+      context: ./dockerFiles/python
+      dockerfile: Dockerfile
+    container_name: ${SOURCE_CONTAINER}
+    ports:
+     - "5000:5000"
+    volumes:
+      - "./:/usr/src/app"
